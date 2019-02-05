@@ -44,7 +44,7 @@ if (message.content.startsWith(adminprefix + 'sa')) {
 client.on('guildMemberAdd', member => {
       if(member.guild.id !== '520344192153550848') return;
     setTimeout(function() {
-    member.guild.channels.find(r => r.id === '520378678362767362').send('**Welcome To Rois Tumblr** :dizzy: **# , **');
+    member.guild.channels.find(r => r.id === '520378678362767362').send('Bienvenue sur le **Vieux.**');
 },3000);
 });
 
