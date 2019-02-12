@@ -42,9 +42,9 @@ if (message.content.startsWith(adminprefix + 'sa')) {
 }
 });
 client.on('guildMemberAdd', member => {
-      if(member.guild.id !== '520344192153550848') return;
+      if(member.guild.id !== '511543836053471254') return;
     setTimeout(function() {
-    member.guild.channels.find(r => r.id === '520378678362767362').send('Bienvenue sur le **Vieux.**');
+member.guild.channels.find(r => r.id === '544864596805025802').send('Bienvenue sur le **Vieux.**');
 },3000);
 });
 
